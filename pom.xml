@@ -2,11 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<!--
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
+-->
 
     <groupId>com.tonicartos</groupId>
     <artifactId>stickygridheader-parent</artifactId>
@@ -19,13 +21,14 @@
 
     <modules>
         <module>Library</module>
-        <module>Example</module>
     </modules>
 
     <scm>
-        <url>https://github.com/TonicArtos/StickyGridHeaders</url>
-        <connection>scm:git:git://github.com/TonicArtos/StickyGridHeaders.git</connection>
-        <developerConnection>scm:git:git@github.com:TonicArtos/StickyGridHeaders.git</developerConnection>
+        <url>https://github.com/inmite/StickyGridHeaders</url>
+        <connection>scm:git:https://github.com/inmite/StickyGridHeaders.git</connection>
+        <developerConnection>scm:git:git@github.com:inmite/StickyGridHeaders.git</developerConnection>
+
+
     </scm>
 
     <issueManagement>
@@ -47,7 +50,7 @@
         <android.platform>17</android.platform>
 
         <!--  PLUGINS VERSIONS -->
-        <android.maven.version>3.4.1</android.maven.version>
+        <android.maven.version>3.7.0</android.maven.version>
         <maven.compiler.version>2.3.2</maven.compiler.version>
         <maven.release.version>2.2.1</maven.release.version>
         <!-- OTHER -->
@@ -88,6 +91,7 @@
                         <target>${java.version}</target>
                     </configuration>
                 </plugin>
+
             </plugins>
         </pluginManagement>
         <plugins>
