@@ -509,6 +509,11 @@ public class StickyGridHeadersGridView extends GridView implements OnScrollListe
         }
     }
 
+	/**
+	 *
+	 * @param position position of the view in UI
+	 * @return mapped position of views from UI to positions of the original Adapter (takes in account FillerViews and Headers)
+	 */
 	public int getGridSpecificPosition(int position){
 		return mAdapter.translatePosition(position).mPosition;
 	}
