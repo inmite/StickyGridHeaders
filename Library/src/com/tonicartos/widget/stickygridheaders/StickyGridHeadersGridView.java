@@ -509,6 +509,10 @@ public class StickyGridHeadersGridView extends GridView implements OnScrollListe
         }
     }
 
+	public int getGridSpecificPosition(int position){
+		return mAdapter.translatePosition(position).mPosition;
+	}
+
     @Override
     public void setClipToPadding(boolean clipToPadding) {
         super.setClipToPadding(clipToPadding);

@@ -33,23 +33,23 @@ import android.widget.FrameLayout;
 public class StickyGridHeadersBaseAdapterWrapper extends BaseAdapter {
     private static final int sNumViewTypes = 3;
 
-    protected static final int ID_FILLER = -0x02;
+    public static final int ID_FILLER = -0x02;
 
-    protected static final int ID_HEADER = -0x01;
+    public static final int ID_HEADER = -0x01;
 
-    protected static final int ID_HEADER_FILLER = -0x03;
+    public static final int ID_HEADER_FILLER = -0x03;
 
-    protected static final int POSITION_FILLER = -0x01;
+    public static final int POSITION_FILLER = -0x01;
 
-    protected static final int POSITION_HEADER = -0x02;
+    public static final int POSITION_HEADER = -0x02;
 
-    protected static final int POSITION_HEADER_FILLER = -0x03;
+    public static final int POSITION_HEADER_FILLER = -0x03;
 
-    protected static final int VIEW_TYPE_FILLER = 0x00;
+    public static final int VIEW_TYPE_FILLER = 0x00;
 
-    protected static final int VIEW_TYPE_HEADER = 0x01;
+    public static final int VIEW_TYPE_HEADER = 0x01;
 
-    protected static final int VIEW_TYPE_HEADER_FILLER = 0x02;
+    public static final int VIEW_TYPE_HEADER_FILLER = 0x02;
 
     private final Context mContext;
 
